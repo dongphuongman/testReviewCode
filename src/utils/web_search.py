@@ -4,7 +4,6 @@ from tavily import TavilyClient
 
 from src.utils.logging_config import logger
 
-
 class WebSearcher:
     def __init__(self):
         api_key = os.getenv("TAVILY_API_KEY")
@@ -19,7 +18,7 @@ class WebSearcher:
 
         Args:
             query: 搜索查询
-            max_results: 最大返回结果数
+            max_results: Maximum number of returned results
 
         Returns:
             搜索结果列表
