@@ -1,6 +1,5 @@
 """
-图片处理工具模块
-支持图片的格式转换、压缩、缩略图生成等功能
+The image processing tool module supports functions such as image format conversion, compression, and thumbnail generation.
 """
 
 import base64
