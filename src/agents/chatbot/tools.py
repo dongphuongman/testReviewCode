@@ -13,7 +13,7 @@ from src.utils import logger
 
 @tool
 async def text_to_img_qwen(text: str) -> str:
-    """（用来测试文件存储）使用模型生成图片， 会返回图片的URL"""
+    """(Used to test file storage) Generating images using the model will return the image URLs."""
 
     url = "https://api.siliconflow.cn/v1/images/generations"
 
