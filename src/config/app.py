@@ -27,7 +27,7 @@ from src.utils.logging_config import logger
 
 
 class Config(BaseModel):
-    """应用配置类"""
+    """Application configuration class"""
 
     # ============================================================
     # 基础配置
