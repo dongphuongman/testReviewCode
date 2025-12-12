@@ -2,7 +2,7 @@ from src.utils.datetime_utils import shanghai_now
 
 
 def get_system_prompt():
-    return f"当前时间：{shanghai_now().strftime('%Y-%m-%d %H:%M:%S')}\n"
+    return f"Current time: {shanghai_now().strftime('%Y-%m-%d %H:%M:%S')}\n"
 
 
 knowbase_qa_template = """
