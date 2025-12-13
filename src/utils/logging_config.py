@@ -10,7 +10,7 @@ LOG_FILE = f"{SAVE_DIR}/logs/yuxi-{DATETIME}.log"
 
 
 def setup_logger(name, level="DEBUG", console=True):
-    """使用 loguru 设置日志记录器"""
+    """ loguru """
     os.makedirs(f"{SAVE_DIR}/logs", exist_ok=True)  # 创建日志目录
 
     # 移除默认的 handler
